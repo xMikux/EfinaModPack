@@ -22,8 +22,10 @@ Sodium
 Starlight (Fabric)
 Very Many Players (Fabric)
 More Culling
+lazy-language-loader
 
 ## Misc
 
 Reese's Sodium Options
 Mod Menu
+Your Options Shall Be Respected (YOSBR)

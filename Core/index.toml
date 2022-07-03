@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/sodium-extra-options.json"
+hash = "e7ea0b3f6f0a25f21a06357e46b89302a2f5349dd69ad1df6ec26ab011afebd9"
+
+[[files]]
+file = "config/yosbr/options.txt"
+hash = "c727c2ca17e503cf66405e66c2cb3944461274ce5aa2df72ab71685efedd9d77"
+
+[[files]]
 file = "mods/better-biome-blend.pw.toml"
 hash = "aeaefb6089a1cf7635b3722aabdda71baea6e0e72547ca3bb7726400ae5b93cd"
 metafile = true
@@ -38,6 +46,11 @@ metafile = true
 [[files]]
 file = "mods/krypton.pw.toml"
 hash = "a2bb983e5dffe95d1f92ee19a099ed214f9b3d39c4e9f8eb5991a1a3c7735b45"
+metafile = true
+
+[[files]]
+file = "mods/lazy-language-loader.pw.toml"
+hash = "aa121458453ea2bc4925da583208f8b503b34c4d4a924cf46f8f45c1fa0f587c"
 metafile = true
 
 [[files]]
