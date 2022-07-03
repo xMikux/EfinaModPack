@@ -21,39 +21,38 @@ jobs:
         uses: actions/setup-go@v3
         with:
           go-version: '1.18.3'
-      
+
       - name: Install Packwiz
         run: |
           go install github.com/packwiz/packwiz@latest
           packwiz --help
 
-      # - name: Add Git Version Info
-      #   id: version
-      #   run: |
-      #     echo "::set-output name=sha_short::${GITHUB_SHA::7}"
-      #     sed -i 's/1.0.0/git '${GITHUB_SHA::7}'/1' pack.mcmeta
-      
-      - name: Core ModPack Export
+      - name: Git Version Info
+        id: version
         run: |
-          cd Core/
+          echo "::set-output name=sha_short::${GITHUB_SHA::7}"
+
+      - name: ModPack Export
+        run: |
+          cd LitePack/
           packwiz mr export
-          mv EfinaModPack-Core-1.0.0.mrpack ..
+          mv *.mrpack ..
 
       - name: Make Checksum
         id: checksum
         run: |
-          echo "::set-output name=sum::$(sha256sum EfinaModPack-Core-1.0.0.mrpack)"
+          echo "::set-output name=sum-01::$(sha256sum EfinaModPack-Lite-[0-9].[0-9].[0-9].mrpack)"
 
       - name: Push Pack to Per-Release
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
-          artifacts: "EfinaModPack-Core-1.0.0.mrpack"
+          artifacts: "*.mrpack"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
-          name: Efina模組包核心 (git ${{ steps.version.outputs.sha_short }})
+          name: Efina 模組包-最新版 (git ${{ steps.version.outputs.sha_short }})
           body: |
             ## ✅ Checksum
             ```
-            ${{ steps.checksum.outputs.sum }}
+            ${{ steps.checksum.outputs.sum-01 }}
             ```
