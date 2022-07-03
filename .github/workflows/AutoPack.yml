@@ -1,0 +1,32 @@
+name: AutoPack
+
+on:
+  push:
+    branches:
+    - main
+    # paths:
+    # - assets/**
+    # - pack.mcmeta
+  workflow_dispatch: {}
+
+jobs:
+  ModPack-PerRealease:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checking Repostiory
+        uses: actions/checkout@v2.0.0
+
+      - name: Setup Golang
+        uses: actions/setup-go@v3
+      
+      - name: Install Packwiz
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          packwiz --help
+      
+      - name: Testing ModPack Export
+        run: |
+          cd Core/
+          packwiz mr export
+          ls -alh

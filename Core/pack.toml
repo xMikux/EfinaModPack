@@ -1,0 +1,13 @@
+name = "EfinaModPack-Core"
+author = "Efina"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "388f8125271abd92d0ad593818132793e2cacedc1c642d0bae81d909d2f5870d"
+
+[versions]
+minecraft = "1.19"
+quilt = "0.17.1-beta.4"
