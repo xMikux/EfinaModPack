@@ -26,13 +26,14 @@ jobs:
           go install github.com/packwiz/packwiz@latest
           packwiz --help
 
-      - name: Git Version Info
+      - name: Set Git Version Info
         id: version
         run: |
           echo "::set-output name=sha_short::${GITHUB_SHA::7}"
 
       - name: ModPack Export
         run: |
+          cp LICENSE LitePack/
           cd LitePack/
           packwiz mr export
           mv *.mrpack ..
