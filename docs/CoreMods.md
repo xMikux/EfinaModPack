@@ -21,3 +21,7 @@ Sodium Extra
 Sodium
 Starlight (Fabric)
 Very Many Players (Fabric)
+
+## Misc
+
+Reese's Sodium Options
