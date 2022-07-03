@@ -26,9 +26,34 @@ jobs:
         run: |
           go install github.com/packwiz/packwiz@latest
           packwiz --help
+
+      # - name: Add Git Version Info
+      #   id: version
+      #   run: |
+      #     echo "::set-output name=sha_short::${GITHUB_SHA::7}"
+      #     sed -i 's/1.0.0/git '${GITHUB_SHA::7}'/1' pack.mcmeta
       
-      - name: Testing ModPack Export
+      - name: Core ModPack Export
         run: |
           cd Core/
           packwiz mr export
-          ls -alh
+          mv EfinaModPack-Core-1.0.0.mrpack .
+
+      - name: Make Checksum
+        id: checksum
+        run: |
+          echo "::set-output name=sum::$(sha256sum EfinaModPack-Core-1.0.0.mrpack)"
+
+      - name: Push Pack to Per-Release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          artifacts: "EfinaModPack-Core-1.0.0.mrpack"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: latest
+          name: Efina模組包核心 (git ${{ steps.version.outputs.sha_short }})
+          body: |
+            ## ✅ Checksum
+            ```
+            ${{ steps.checksum.outputs.sum }}
+            ```
