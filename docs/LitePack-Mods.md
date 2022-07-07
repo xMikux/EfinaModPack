@@ -1,8 +1,9 @@
-# CoreMod List
+# LitePack Mod List
 
 ## API / Libary
 
 Cloth Config API
+Indium
 Quilted Fabric API / Quilt Standard Libraries
 
 ## Optimization
@@ -33,10 +34,13 @@ Very Many Players (Fabric)
 AdvancementInfo
 Better Taskbar
 BetterF3
+Continuity
+Iris Shaders
+LambdaBetterGrass
 Mod Menu
+Quilt Loading Screen
 Reese's Sodium Options
 Sodium Extra
-Quilt Loading Screen
 
 ## Environment / Effect
 
@@ -47,5 +51,5 @@ ExtraSounds
 CIT Resewn
 Dynamic FPS
 Mouse Wheelie
-Your Options Shall Be Respected (YOSBR)
 Screenshot to Clipboard
+Your Options Shall Be Respected (YOSBR)

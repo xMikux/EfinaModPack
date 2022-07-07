@@ -1,7 +1,11 @@
-resourcePacks:["vanilla","Fabric Mods"]
-lang:en_us
+version:3105
+autoJump:false
+snooperEnabled:false
+resourcePacks:["vanilla","lambdabettergrass/default","cullleaves/smartleaves","continuity/default","continuity/glass_pane_culling_fix"]
+tutorialStep:none
+key_iris.keybind.reload:key.keyboard.unknown
 soundCategory_master:0.60844374
-soundCategory_music:0.4084507
+soundCategory_music:0.0
 soundCategory_record:0.6056338
 soundCategory_weather:0.30809858
 soundCategory_block:0.40669015
@@ -10,3 +14,11 @@ soundCategory_neutral:0.30985916
 soundCategory_player:0.5
 soundCategory_ambient:0.60739434
 soundCategory_voice:1.0
+soundCategory_extrasounds_master:0.5
+soundCategory_inventory:1.0
+soundCategory_action:1.0
+soundCategory_chat:1.0
+soundCategory_chat_mention:1.0
+soundCategory_effects:1.0
+soundCategory_scroll:1.0
+soundCategory_typing:1.0
