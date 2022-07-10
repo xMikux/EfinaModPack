@@ -2,6 +2,8 @@
 
 ## API / Libary
 
+| Name | Author | Description |
+| ---- | ------ | ----------- |
 Cloth Config API
 Indium
 Quilted Fabric API / Quilt Standard Libraries
@@ -31,6 +33,8 @@ Very Many Players (Fabric)
 
 ## Visual
 
+| Name | Author | Description |
+| ---- | ------ | ----------- |
 AdvancementInfo
 Better Taskbar
 BetterF3
@@ -48,6 +52,8 @@ ExtraSounds
 
 ## Utilities Tools
 
+| Name | Author | Description |
+| ---- | ------ | ----------- |
 CIT Resewn
 Dynamic FPS
 Mouse Wheelie

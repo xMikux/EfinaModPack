@@ -1,3 +1,4 @@
 # Ignore mrpack & jar files
 *.mrpack
-*jar
+*.jar
+*.zip
