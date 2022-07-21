@@ -41,6 +41,7 @@ BetterF3
 Continuity
 Iris Shaders
 LambdaBetterGrass
+MinimalMenu
 Mod Menu
 Quilt Loading Screen
 Reese's Sodium Options

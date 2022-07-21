@@ -1,0 +1,13 @@
+name = "MinimalMenu"
+filename = "minimalmenu-1.19-0.1.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/BYtiUf2Z/versions/0.1.5/minimalmenu-1.19-0.1.5.jar"
+hash-format = "sha1"
+hash = "c6419204610bff106ec278848af13d7d42e51cbc"
+
+[update]
+[update.modrinth]
+mod-id = "BYtiUf2Z"
+version = "pzhpn686"

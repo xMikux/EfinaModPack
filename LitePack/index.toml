@@ -5,6 +5,10 @@ file = "config/yosbr/config/betterf3.json"
 hash = "91ee3b917ec7ccdb07502f2a3d96532cc7aab153a4083865e7acbc23d438f8d0"
 
 [[files]]
+file = "config/yosbr/config/cull-less-leaves.toml"
+hash = "3f8cc271dc1fb84d8847bf9aa963dc3ae477df5d954fd964cc6127725d69de0f"
+
+[[files]]
 file = "config/yosbr/config/lambdabettergrass.toml"
 hash = "cf7c3b60dc1615f94a0c292242bef1b0c1953b495438ea1c9f5895a7169743fd"
 
@@ -13,8 +17,16 @@ file = "config/yosbr/config/lambdynlights.toml"
 hash = "75b3886524cd9e0e2db166450b73238d69def829b18dc71a0093f9a13011c1e7"
 
 [[files]]
+file = "config/yosbr/config/minimalmenu.json"
+hash = "dd2fa294a5fe14e5013b80e3e51b0b8c8fed8705d0fe80afaa8c7a2f880d8145"
+
+[[files]]
 file = "config/yosbr/config/modmenu.json"
 hash = "b74b4a5087302149e714e5d9426caa49bae55d05e5c2b5ae6cf158a883c4639a"
+
+[[files]]
+file = "config/yosbr/config/moreculling.toml"
+hash = "d812c9e6061ffc0c7d33fbd38703f6701c7382279ba01a65799fcd1794b2b1ae"
 
 [[files]]
 file = "config/yosbr/config/mousewheelie.hjson"
@@ -30,7 +42,7 @@ hash = "966400f7a90c323f45b0eac1cd785f8a054c7470af9ecbc81c331ce4f3889263"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "301b1ab73dcc04c3e96e0c59a1d95df533431341127fb03bf63e848dd6ffe7fd"
+hash = "a915cebe6fca35a87ca7e2421cfac0a5256b6ff5f93aa7187e87fd5250586cef"
 
 [[files]]
 file = "mods/advancementinfo.pw.toml"
@@ -155,6 +167,11 @@ metafile = true
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "9bedd7ca66c806a5bc8bfefc04ac3a4665bccf3a6672e3a4ebd69dd752c5ee6f"
+metafile = true
+
+[[files]]
+file = "mods/minimalmenu.pw.toml"
+hash = "75cbefdd9f19a1002c51190f033e464d9a3a96766bd243d3af1f1c7994555347"
 metafile = true
 
 [[files]]
