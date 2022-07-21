@@ -13,7 +13,7 @@ Quilted Fabric API / Quilt Standard Libraries
 | Name | Author | Description |
 | ---- | ------ | ----------- |
 Better Biome Blend
-Cull Leaves
+Cull Less Leaves
 Debugify
 Enhanced Block Entities
 EntityCulling
@@ -54,6 +54,7 @@ ExtraSounds
 
 | Name | Author | Description |
 | ---- | ------ | ----------- |
+Auth Me
 CIT Resewn
 Dynamic FPS
 Mouse Wheelie

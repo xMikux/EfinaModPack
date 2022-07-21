@@ -38,6 +38,11 @@ hash = "4630f59c3ac70d37641704833a8cc94171eb02697969277159b749ea15e74c00"
 metafile = true
 
 [[files]]
+file = "mods/auth-me.pw.toml"
+hash = "e069d5130c543fdfe06368fe19a3a4877a2bd4cac471e622da057d8dca3851a8"
+metafile = true
+
+[[files]]
 file = "mods/better-biome-blend.pw.toml"
 hash = "aeaefb6089a1cf7635b3722aabdda71baea6e0e72547ca3bb7726400ae5b93cd"
 metafile = true
@@ -68,8 +73,8 @@ hash = "749bf88d67ff9ddf272dc48d82402dd61ea2812238dfca4feb1fd78440675456"
 metafile = true
 
 [[files]]
-file = "mods/cull-leaves.pw.toml"
-hash = "a7af400b51863f2b7eedf336902a1a369d9f6d13ccacece0218970e1172fea82"
+file = "mods/cull-less-leaves.pw.toml"
+hash = "5e289f7ef37b75b340dde02ee3a11a92ba6d4f045fd4f67eb3647b18cf51f739"
 metafile = true
 
 [[files]]

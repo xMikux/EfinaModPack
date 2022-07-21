@@ -1,7 +1,7 @@
 version:3105
 autoJump:false
 snooperEnabled:false
-resourcePacks:["vanilla","lambdabettergrass/default","cullleaves/smartleaves","continuity/default","continuity/glass_pane_culling_fix"]
+resourcePacks:["vanilla","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix"]
 tutorialStep:none
 key_iris.keybind.reload:key.keyboard.unknown
 soundCategory_master:0.60844374
