@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/yosbr/config/betterf3.json"
-hash = "91ee3b917ec7ccdb07502f2a3d96532cc7aab153a4083865e7acbc23d438f8d0"
+hash = "8e2304611d045478da5daf9a5b720ea6a04509e53b084066a1ff130082c69505"
 
 [[files]]
 file = "config/yosbr/config/cull-less-leaves.toml"

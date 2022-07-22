@@ -5,15 +5,15 @@
 		"background_color": 1867534416,
 		"space_modules": false,
 		"shadow_text": true,
-		"animations": true,
+		"animations": false,
 		"fontScale": 1.0,
 		"hide_sidebar": true
 	},
 	"modules_right": [
 		{
 			"name": "system",
-			"name_color": 16755200,
-			"value_color": 5636095,
+			"name_color": 16777215,
+			"value_color": 16777215,
 			"lines": {
 				"opengl_version": true,
 				"display": true,
@@ -45,8 +45,8 @@
 		}, 
 		{
 			"name": "target",
-			"name_color": 43775,
-			"value_color": 16777045,
+			"name_color": 16777215,
+			"value_color": 16777215,
 			"lines": {
 				"id_fluid": true,
 				"fluid_tags": true,
@@ -66,8 +66,8 @@
 	"modules_left": [
 		{
 			"name": "minecraft",
-			"name_color": 10506797,
-			"value_color": 43520,
+			"name_color": 16777215,
+			"value_color": 16777215,
 			"lines": {
 				"minecraft": true
 			},
@@ -108,11 +108,11 @@
 			"enabled": false
 		}, 
 		{
-			"color_x": 16733525,
-			"color_y": 5635925,
-			"color_z": 5636095,
+			"color_x": 16777215,
+			"color_y": 16777215,
+			"color_z": 16777215,
 			"name": "coords",
-			"name_color": 16733525,
+			"name_color": 16777215,
 			"lines": {
 				"chunk_coords": true,
 				"player_coords": true,
@@ -142,8 +142,8 @@
 		}, 
 		{
 			"name": "location",
-			"name_color": 43520,
-			"value_color": 5636095,
+			"name_color": 16777215,
+			"value_color": 16777215,
 			"lines": {
 				"light": true,
 				"biome": true,
@@ -179,8 +179,8 @@
 		}, 
 		{
 			"name": "sound",
-			"name_color": 16755200,
-			"value_color": 5636095,
+			"name_color": 16777215,
+			"value_color": 16777215,
 			"lines": {
 				"ambient_sounds": true,
 				"sounds": true,
