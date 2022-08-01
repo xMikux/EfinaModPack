@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/isxander-main-menu-credits.json"
+hash = "7676d32220073c9fcbc867e0acebb08853f1d890b913fa36cda6eb09975aa43a"
+
+[[files]]
+file = "config/yosbr/config/NoChatReports.json"
+hash = "0573d612ce854bcf0a68a61d22144521f7f4b8cb9016b7b6d2b1d0b8c4835807"
+
+[[files]]
 file = "config/yosbr/config/betterf3.json"
 hash = "8e2304611d045478da5daf9a5b720ea6a04509e53b084066a1ff130082c69505"
 
@@ -18,11 +26,11 @@ hash = "75b3886524cd9e0e2db166450b73238d69def829b18dc71a0093f9a13011c1e7"
 
 [[files]]
 file = "config/yosbr/config/minimalmenu.json"
-hash = "5d9c538f0e649fec6295c1bbc1ccd61f1ad499b175bbdd6544d15d3b90456381"
+hash = "fd1fc0f0fcedf5a5c11b1658d5a1d8e0bd4928811945aa23cf84724d3aa4b942"
 
 [[files]]
 file = "config/yosbr/config/modmenu.json"
-hash = "68196fbcbdd69c7bd4752b65bcce8ed5a1b7dd312407e77b08e7e435f3e852c6"
+hash = "28c18076e0a4d4ccc8360fbd8357eb4a07246f821f4f10d54f17eb7b83b355c2"
 
 [[files]]
 file = "config/yosbr/config/moreculling.toml"
@@ -46,12 +54,12 @@ hash = "a915cebe6fca35a87ca7e2421cfac0a5256b6ff5f93aa7187e87fd5250586cef"
 
 [[files]]
 file = "mods/advancementinfo.pw.toml"
-hash = "3580a663836f58a54a19315f80882b7a9bcd5c49d27ab7963ff9041d27eb77b9"
+hash = "813c9e3195948559d0daeb5a03ac0169645719c01a9604bebc61ae71d03525a0"
 metafile = true
 
 [[files]]
 file = "mods/auth-me.pw.toml"
-hash = "a407339e66a5117c7b0f4c51d34460fccb1d815ca5111881f7862ead0e8b3c0c"
+hash = "fada6c5111be510ce9dcda58588edd0d694e11bc040fcc2afe0586e8560abb49"
 metafile = true
 
 [[files]]
@@ -76,7 +84,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "0b09ba44afec5460595f6c5bd86caeb13ed737703b50f6d9f4fb6cde3c358308"
+hash = "67fb21ff47324f5b982db90b52ca2024dbee0b83b67721c47761a94f32af4a40"
 metafile = true
 
 [[files]]
@@ -91,7 +99,7 @@ metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "fc4c3b151b38d3df9c859704dcf8cbbc07ebcdf846e692bbef6fe3c8a2f22474"
+hash = "5bd9719c412474bc8cadd6e188bcb1e912d0e1a69a208fbbfb183dbc2840a651"
 metafile = true
 
 [[files]]
@@ -107,11 +115,6 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "4f3cde0c82cf126ffe36ee035f993bc6d43ac11fbc0223b9c25644f932aa43aa"
-metafile = true
-
-[[files]]
-file = "mods/extrasounds.pw.toml"
-hash = "2b6ae453d6f490b5de34bac770f04dc2947e8d68fb8761cd7cc627cbc4352963"
 metafile = true
 
 [[files]]
@@ -131,12 +134,12 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "ea937bf0ec6bb83d0e57a0c01fc580cc3c35f11ab6bb47b2c5ddc89837b3c156"
+hash = "a348ec1aec5a10f7235d6741e08aea583e042049eded3d6eafd97a0688a891c0"
 metafile = true
 
 [[files]]
 file = "mods/krypton.pw.toml"
-hash = "6d44ba495ec60b34ea73717ff34ede52784bf2cd5260eae885df1b6495a3c73a"
+hash = "998f45a9037fa4663bc5e2bea5de925bf4ce6352328fcaaa830db8466cc62416"
 metafile = true
 
 [[files]]
@@ -161,12 +164,17 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "da959dc7cbd5f11f99eae09aa464af212098c8a1380ba3fe02de0b61b24d5340"
+hash = "2169e44e13300b75bed771b83724278bc10d319270096cc8c3953271bf68a2ae"
+metafile = true
+
+[[files]]
+file = "mods/main-menu-credits.pw.toml"
+hash = "1527caee4fc4f26b525a41a95dd07dae21ab3c8d2c391237c79396abf7e9b2d7"
 metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "9292905e8fd7d7935e33ad996e0cbab24798974908dc48a37970ac9aed0e9b1c"
+hash = "4716789e4a806c1cabcef27e67150215edb4c3d737e9a87d90f2f615d6c196cd"
 metafile = true
 
 [[files]]
@@ -176,17 +184,22 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "7deb0d77105cf09bdb010e2ae9ea83364aa4608eafdf6f7bc857bd5aaa88ad5f"
+hash = "73bc2fb1fd275fd88efd075bc03153d6b2d6d34871f62a94208db5c28f17805b"
 metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "1dbffa09f6ea86a0b65f439650779ff8e755b06e3b083e07fa08d6a7fd6c1fd1"
+hash = "8146180d1612a9ec226fb5981f0a95167c19a4a0e6a188eae93c94e5bcc8ea47"
 metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.pw.toml"
 hash = "038fee72b1177bc9ff7faab54775fb140c06971f002f1e0076514c008b193e02"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "13c71598d788235d793bd8f488dbe636f1dc6952425c24285c2d188f7a1d024a"
 metafile = true
 
 [[files]]
@@ -196,7 +209,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "b054c54c9732cf012526bcb529c189f808692c17aa29e306444a2110df43d38d"
+hash = "33b4e42405067fbbf2633e14299e3010bdc48b31f1fa777ff45e542b5cda4f27"
 metafile = true
 
 [[files]]
@@ -221,7 +234,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "44753d43c1317219d09a1c6cf5cf87a8e000d4d667a7b943338fc94949cdd2a5"
+hash = "3f2148f425622b9226aac1a5ea41f6613f9fdc0f484eadd72d30714ab0a73895"
 metafile = true
 
 [[files]]
@@ -236,7 +249,7 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "7f5bc3352352a47d9a99c611531b2e51eca6432fd97a5985927b328185d820ef"
+hash = "4bee15eb173432a3406d78101e84bc56d35544caf0c405148ad5671201597c39"
 metafile = true
 
 [[files]]

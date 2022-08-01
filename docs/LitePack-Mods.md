@@ -49,7 +49,9 @@ Sodium Extra
 
 ## Environment / Effect
 
-ExtraSounds
+| Name | Author | Description |
+| ---- | ------ | ----------- |
+ExtraSounds(Removed, need to update)
 
 ## Utilities Tools
 
@@ -58,6 +60,8 @@ ExtraSounds
 Auth Me
 CIT Resewn
 Dynamic FPS
+Main Menu Credits
 Mouse Wheelie
+No Chat Reports
 Screenshot to Clipboard
 Your Options Shall Be Respected (YOSBR)
