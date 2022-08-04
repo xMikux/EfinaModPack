@@ -84,7 +84,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "67fb21ff47324f5b982db90b52ca2024dbee0b83b67721c47761a94f32af4a40"
+hash = "f3a19e01b427c0edeb8fef1a7d6e23c206a2c114013d4fe2a38d18652d2d29ae"
 metafile = true
 
 [[files]]
@@ -118,6 +118,11 @@ hash = "4f3cde0c82cf126ffe36ee035f993bc6d43ac11fbc0223b9c25644f932aa43aa"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "8e91eac9da646c5458d00fb68ccf0887bf815947ef549cb19abebe1e6cec5c72"
+metafile = true
+
+[[files]]
 file = "mods/fastload.pw.toml"
 hash = "cbd85f6850ec1e1fde912e2799193ef5ca9a1d03793cf9ef0feeed1247bea784"
 metafile = true
@@ -129,7 +134,7 @@ metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "432ff6dab148ec6b17440c2c83d2f62c1ad5eae3cbc6edc8126787aa5e8c13c9"
+hash = "eefcd81493fa26fa8135cf85495cbfb52127aa43667c5a4faea27d16d7bb2191"
 metafile = true
 
 [[files]]
@@ -209,7 +214,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "33b4e42405067fbbf2633e14299e3010bdc48b31f1fa777ff45e542b5cda4f27"
+hash = "2ae2a17a9a92f337fe58dddc9245f890f4fc55a0421bc9708890068a5be77489"
 metafile = true
 
 [[files]]
@@ -220,6 +225,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "2ea3284ba21efecbdfc83998bc369f24b797eab6b6a9c83840375fd4b6ad9ad4"
+metafile = true
+
+[[files]]
+file = "mods/screencapper.pw.toml"
+hash = "a9eddea5cf3ba6e9b1f90b2b3361284357cfc4e3f51c25f87c45c7bcfb089a1c"
 metafile = true
 
 [[files]]
@@ -249,10 +259,15 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "4bee15eb173432a3406d78101e84bc56d35544caf0c405148ad5671201597c39"
+hash = "cce35d218ef5e50b8019054c4bf2d8ec2b679c21a8e14c419e22272e6dafa025"
 metafile = true
 
 [[files]]
 file = "mods/yosbr.pw.toml"
 hash = "5489b8e77849de65099b374dd2ff274149e7df44812883026b7df83136e66cff"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "f0a3e27c9875b275e6bbc68b8e4d847e404fd4f647674b625716ff2a75b61fef"
 metafile = true

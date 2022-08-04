@@ -1,0 +1,13 @@
+name = "Screencapper"
+filename = "Screencapper-1.19-1.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yzNFLSqx/versions/1.2.0-1.19/Screencapper-1.19-1.2.0.jar"
+hash-format = "sha1"
+hash = "5146b0a89dfbd8f5810bddbc700dd6bae16b0f74"
+
+[update]
+[update.modrinth]
+mod-id = "yzNFLSqx"
+version = "la4AIMhx"
