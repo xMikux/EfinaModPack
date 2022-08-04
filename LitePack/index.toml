@@ -84,7 +84,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "f3a19e01b427c0edeb8fef1a7d6e23c206a2c114013d4fe2a38d18652d2d29ae"
+hash = "67fb21ff47324f5b982db90b52ca2024dbee0b83b67721c47761a94f32af4a40"
 metafile = true
 
 [[files]]
@@ -99,7 +99,7 @@ metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "5bd9719c412474bc8cadd6e188bcb1e912d0e1a69a208fbbfb183dbc2840a651"
+hash = "58fd0c579e75880dde1ad661819a3a7c9cdb4cc6ea3c042a9b8ae996adb3b970"
 metafile = true
 
 [[files]]
@@ -194,7 +194,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "8146180d1612a9ec226fb5981f0a95167c19a4a0e6a188eae93c94e5bcc8ea47"
+hash = "90cfb6a5fdd929c94421cd0674e2af68089e33a8e3965d7dec723ab00df2e94a"
 metafile = true
 
 [[files]]
@@ -214,7 +214,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "2ae2a17a9a92f337fe58dddc9245f890f4fc55a0421bc9708890068a5be77489"
+hash = "ecd1cc4847662b2c8f2c33fdbfee7722c42fec211eeb7c59d775950b4e579e8b"
 metafile = true
 
 [[files]]
@@ -259,7 +259,7 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "cce35d218ef5e50b8019054c4bf2d8ec2b679c21a8e14c419e22272e6dafa025"
+hash = "6d10dc7a50f60ce73ce149534351ff3cd84b1926fb966e742ebe64452a128ff2"
 metafile = true
 
 [[files]]
@@ -269,5 +269,5 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "f0a3e27c9875b275e6bbc68b8e4d847e404fd4f647674b625716ff2a75b61fef"
+hash = "318473eebd14e43e76cebb898ddae34a10e2888ce700aa781299a3398308135c"
 metafile = true
