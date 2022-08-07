@@ -5,6 +5,10 @@ file = "config/isxander-main-menu-credits.json"
 hash = "7676d32220073c9fcbc867e0acebb08853f1d890b913fa36cda6eb09975aa43a"
 
 [[files]]
+file = "config/yosbr/config/Deftu/screencapper.toml"
+hash = "68bf6879574c0795c9eddf701afd0048458cf64781f6ea07b60f2bea92ebe0e7"
+
+[[files]]
 file = "config/yosbr/config/NoChatReports.json"
 hash = "0573d612ce854bcf0a68a61d22144521f7f4b8cb9016b7b6d2b1d0b8c4835807"
 
