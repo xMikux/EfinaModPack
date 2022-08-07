@@ -118,6 +118,11 @@ hash = "4f3cde0c82cf126ffe36ee035f993bc6d43ac11fbc0223b9c25644f932aa43aa"
 metafile = true
 
 [[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "52e2850acf1399c1302187570d6a573d2ebe73666ffbf8fd48546b2b5417d43a"
+metafile = true
+
+[[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "8e91eac9da646c5458d00fb68ccf0887bf815947ef549cb19abebe1e6cec5c72"
 metafile = true
@@ -188,6 +193,11 @@ hash = "918413b0106086969098032f922e46a2912681deb0b8e5976249c4484afd508a"
 metafile = true
 
 [[files]]
+file = "mods/moderate-loading-screen.pw.toml"
+hash = "b25df1d67a39156449d8888fd7df73689ec1bd0ed2e255ee076ef3f926f2f875"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "73bc2fb1fd275fd88efd075bc03153d6b2d6d34871f62a94208db5c28f17805b"
 metafile = true
@@ -204,22 +214,12 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "13c71598d788235d793bd8f488dbe636f1dc6952425c24285c2d188f7a1d024a"
+hash = "93943bd52619233f1997c41be2b2ae566b0dadfb49bf806a6c73cf44db73d494"
 metafile = true
 
 [[files]]
 file = "mods/notenoughcrashes.pw.toml"
 hash = "d798b72bb24f798374d4bcf72c848c3f304c442fa08e0f900200a6a883f0345c"
-metafile = true
-
-[[files]]
-file = "mods/qsl.pw.toml"
-hash = "ecd1cc4847662b2c8f2c33fdbfee7722c42fec211eeb7c59d775950b4e579e8b"
-metafile = true
-
-[[files]]
-file = "mods/quilt-loading-screen.pw.toml"
-hash = "577188c7170194e554bd637ab89d3af5c125d6f072d8e185e286f1cfde2f6dad"
 metafile = true
 
 [[files]]
@@ -259,7 +259,7 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "6d10dc7a50f60ce73ce149534351ff3cd84b1926fb966e742ebe64452a128ff2"
+hash = "94f63a8c0eda9a627381de9baf7ae606071a66f233126429d3217915f2bb8eb1"
 metafile = true
 
 [[files]]
@@ -269,5 +269,5 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "318473eebd14e43e76cebb898ddae34a10e2888ce700aa781299a3398308135c"
+hash = "441f5f7ce1dbe2813105ca2e70ab55d9c63aa66b99e9140be55a24a25054db3b"
 metafile = true

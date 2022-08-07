@@ -5,9 +5,9 @@
 | Name | Author | Description |
 | ---- | ------ | ----------- |
 Cloth Config API
-Indium
-Quilted Fabric API / Quilt Standard Libraries
+Fabric API
 Fabric Language Kotlin
+Indium
 
 ## Optimization
 
@@ -44,7 +44,7 @@ Iris Shaders
 LambdaBetterGrass
 MinimalMenu
 Mod Menu
-Quilt Loading Screen
+Mod-erate Loading Screen
 Reese's Sodium Options
 Sodium Extra
 
