@@ -65,6 +65,5 @@ Main Menu Credits
 Mouse Wheelie
 No Chat Reports
 Screencapper
-Screenshot to Clipboard
 Your Options Shall Be Respected (YOSBR)
 Zoomify
