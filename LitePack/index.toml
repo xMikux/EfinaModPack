@@ -103,7 +103,7 @@ metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "58fd0c579e75880dde1ad661819a3a7c9cdb4cc6ea3c042a9b8ae996adb3b970"
+hash = "4d37e88a354d5b9bbe966212393840e15b9c9b87519bdbf8a14343197b983dab"
 metafile = true
 
 [[files]]
@@ -123,7 +123,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "52e2850acf1399c1302187570d6a573d2ebe73666ffbf8fd48546b2b5417d43a"
+hash = "518ed22adb529e7273602bf0aa64118d987566a8df092d6d1a79a87397926a53"
 metafile = true
 
 [[files]]
@@ -178,7 +178,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "2169e44e13300b75bed771b83724278bc10d319270096cc8c3953271bf68a2ae"
+hash = "7cc268ba8c316a732881e631e00db7cf8db0891f24155475db0a4e88840cdfe8"
 metafile = true
 
 [[files]]
@@ -203,7 +203,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "73bc2fb1fd275fd88efd075bc03153d6b2d6d34871f62a94208db5c28f17805b"
+hash = "24b56cdea0d96fc1b03b8cb6e6bb4b600c6fe730f7cd86e84004d100779ad5a1"
 metafile = true
 
 [[files]]
@@ -218,7 +218,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "93943bd52619233f1997c41be2b2ae566b0dadfb49bf806a6c73cf44db73d494"
+hash = "713a641a445bc48bbbed1283e11883d55c9b5a41b5387979655aa83dac099968"
 metafile = true
 
 [[files]]
@@ -258,7 +258,7 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "94f63a8c0eda9a627381de9baf7ae606071a66f233126429d3217915f2bb8eb1"
+hash = "6bb734f8a8586407f1c3b2fcf4837abca05c0217db736a48647e28f1636e8a3e"
 metafile = true
 
 [[files]]
