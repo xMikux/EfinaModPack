@@ -52,7 +52,7 @@ Sodium Extra
 
 | Name | Author | Description |
 | ---- | ------ | ----------- |
-ExtraSounds(Removed, need to update)
+ExtraSounds
 
 ## Utilities Tools
 
