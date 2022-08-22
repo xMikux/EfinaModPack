@@ -73,7 +73,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-taskbar.pw.toml"
-hash = "dec1647bb6b16a44b42ef4e3a7d719b864a15542218c948d927d75e511e42e88"
+hash = "e769b823889187cf0d839f9645ea981e732bf644fa48ceab606488bac8016ad1"
 metafile = true
 
 [[files]]
@@ -88,7 +88,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "67fb21ff47324f5b982db90b52ca2024dbee0b83b67721c47761a94f32af4a40"
+hash = "5b6a49a1f18adac12e9da13035102cb763e7371a93c2358e25cf74e014366e59"
 metafile = true
 
 [[files]]
@@ -98,7 +98,7 @@ metafile = true
 
 [[files]]
 file = "mods/cull-less-leaves.pw.toml"
-hash = "0d51b9444b830a240759dbb1bc5941fcfb1f061f866792bd65d06e49c1c74a26"
+hash = "f75534f0b6580fadf95bef5efd6aacd25858bc0b3c8f64b648f72292c376324d"
 metafile = true
 
 [[files]]
@@ -123,7 +123,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "518ed22adb529e7273602bf0aa64118d987566a8df092d6d1a79a87397926a53"
+hash = "39cd67c3a2db03da10508144b40aa41310d2a81183b189bd8f7086f3f5b1d49d"
 metafile = true
 
 [[files]]
@@ -208,7 +208,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "9dbc20e8a4e9bd8c997c2af628640f8dcdd05fde6437afbacd630531735c1fcb"
+hash = "741381be667a7b124ce60ba17fca9207369bd6ead4e58ce64fa140aff95f8159"
 metafile = true
 
 [[files]]
@@ -218,7 +218,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "7f4661acedba1f64b7cbfe36f613400b2657e59ce921bee55ab25b247835c2ba"
+hash = "bced73cfdaa0e28e92744b59d5ed2779a60a4b2ebd3bdb944b9cc4956da19814"
 metafile = true
 
 [[files]]
@@ -228,7 +228,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "2f69649f1658de740bd483dc45f4b4d29267c00bec0ae9d80583e6dc115044a4"
+hash = "1c6d01b013b9e8c6dd921046adc7c7768814c17a0fde45cbe695c8e2de40f8be"
 metafile = true
 
 [[files]]
@@ -243,7 +243,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "3f2148f425622b9226aac1a5ea41f6613f9fdc0f484eadd72d30714ab0a73895"
+hash = "a861006c66175659b11c63a2e3872852b58626e7bb756bf39213cef991c490be"
 metafile = true
 
 [[files]]
@@ -258,7 +258,7 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "6bb734f8a8586407f1c3b2fcf4837abca05c0217db736a48647e28f1636e8a3e"
+hash = "88cb2a3f92444a78d269fcf6f5c8cf6d36740c5d445871b372022b6397a06714"
 metafile = true
 
 [[files]]
@@ -268,5 +268,5 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "441f5f7ce1dbe2813105ca2e70ab55d9c63aa66b99e9140be55a24a25054db3b"
+hash = "b5df8de0ddcf5e99ccbd09524ea536c80ef72154ee9a0f21541826815f48022c"
 metafile = true
