@@ -4,6 +4,7 @@
 
 | Name | Author | Description |
 | ---- | ------ | ----------- |
+Architectury API
 Cloth Config API
 Fabric API
 Fabric Language Kotlin
@@ -42,6 +43,7 @@ BetterF3
 Continuity
 Iris Shaders
 LambdaBetterGrass
+Light Overlay
 MinimalMenu
 Mod Menu
 Mod-erate Loading Screen

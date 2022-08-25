@@ -62,6 +62,11 @@ hash = "813c9e3195948559d0daeb5a03ac0169645719c01a9604bebc61ae71d03525a0"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "75dcdffc0d37e098ef12f1b149d68182337372e2d48653ffe0389b94b357a0de"
+metafile = true
+
+[[files]]
 file = "mods/auth-me.pw.toml"
 hash = "fada6c5111be510ce9dcda58588edd0d694e11bc040fcc2afe0586e8560abb49"
 metafile = true
@@ -178,6 +183,11 @@ metafile = true
 [[files]]
 file = "mods/lazydfu.pw.toml"
 hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
+metafile = true
+
+[[files]]
+file = "mods/light-overlay.pw.toml"
+hash = "5c559405b7e871e2ce99db2677469b4806122e94ef6c0fdf560e0ba798e9a78b"
 metafile = true
 
 [[files]]
