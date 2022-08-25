@@ -63,6 +63,12 @@ jobs:
           echo "::set-output name=sum-01::$(sha256sum EfinaModPack-Lite-[0-9].[0-9].[0-9].mrpack)"
           echo "::set-output name=sum-02::$(sha256sum EfinaModPack-Lite-[0-9].[0-9].[0-9].zip)"
 
+      - name: Make FileName
+        id: filename
+        run: |
+          echo "::set-output name=name-01::$(echo EfinaModPack-Lite-[0-9].[0-9].[0-9].mrpack)"
+          echo "::set-output name=name-02::$(echo EfinaModPack-Lite-[0-9].[0-9].[0-9].zip)"
+
       - name: Push Pack to Per-Release
         uses: ncipollo/release-action@v1
         with:
@@ -72,6 +78,14 @@ jobs:
           tag: latest
           name: Efina ModPack-Latest (git ${{ steps.version.outputs.sha_short }})
           body: |
+            ## Install Tutorial
+
+            ### PolyMC
+            Download `${{ steps.filename.outputs.name-01 }}`, and Create Instance on your PolyMC with `Import from zip`.
+
+            ### Not PolyMC (e.g CurseForge, GDLauncher, MultiMC etc...)
+            Download `${{ steps.filename.outputs.name-02 }}`, and Create Instance with `Import zip` option.
+
             ## ✅ Checksum
             ```
             ${{ steps.checksum.outputs.sum-01 }}
