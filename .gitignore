@@ -1,7 +1,12 @@
 # Ignore mrpack & jar files
+
 *.mrpack
 *.jar
 *.zip
+
+# Ignore CF Workflow folder
+
+LitePack-CF/**
 
 # Don't ignore ExtraSounds
 

@@ -31,23 +31,43 @@ jobs:
         run: |
           echo "::set-output name=sha_short::${GITHUB_SHA::7}"
 
-      - name: ModPack Export
+      - name: ModPack Export (Modrinth)
         run: |
           cp LICENSE LitePack/
           cd LitePack/
           packwiz mr export
           mv *.mrpack ..
 
+      - name: ModPack Export (CurseForge)
+        run: |
+          cd LitePack/
+          packwiz cf export
+          cd ..
+          cp -r LitePack LitePack-CF
+          cd LitePack-CF
+          rm -r mods
+          mkdir Temp
+          cd Temp
+          mv ../EfinaModPack-Lite-[0-9].[0-9].[0-9].zip .
+          unzip EfinaModPack-Lite-[0-9].[0-9].[0-9].zip
+          cd ..
+          cp -r Temp/overrides/mods .
+          rm -r Temp
+          packwiz cf detect
+          packwiz cf export
+          mv *.zip ..
+
       - name: Make Checksum
         id: checksum
         run: |
           echo "::set-output name=sum-01::$(sha256sum EfinaModPack-Lite-[0-9].[0-9].[0-9].mrpack)"
+          echo "::set-output name=sum-02::$(sha256sum EfinaModPack-Lite-[0-9].[0-9].[0-9].zip)"
 
       - name: Push Pack to Per-Release
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
-          artifacts: "*.mrpack"
+          artifacts: "*.mrpack,*.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
           name: Efina ModPack-Latest (git ${{ steps.version.outputs.sha_short }})
@@ -55,4 +75,5 @@ jobs:
             ## ✅ Checksum
             ```
             ${{ steps.checksum.outputs.sum-01 }}
+            ${{ steps.checksum.outputs.sum-02 }}
             ```
