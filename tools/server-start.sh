@@ -24,22 +24,54 @@ Max_Ram=4G
 
 # If need to setup Java runtime path, set an environment variable with name JAVA_PATH
 
-#JAVA_PATH=/usr/lib/jvm/java-17-openjdk/bin/java
+# JAVA_PATH=/usr/lib/jvm/java-17-openjdk/bin/java
+
+## Command checker
+
+command_checker () {
+    echo "Checking available download command..."
+    if hash wget 2>/dev/null; then
+      echo "Command wget find!! Using this for default download command."
+      command_var=0
+    elif hash curl 2>/dev/null; then
+      echo "Command curl find!! Using this for default download command."
+      command_var=1
+    else
+      echo "Can't find wget or curl. Please install one of package and run this script again!"
+      command_var=2
+      exit 1
+    fi
+
+    echo "Checking java command is exist..."
+    if hash java 2>/dev/null; then
+      echo "Java installed."
+    else
+      echo "Java command not found, please install java and run this script again!"
+      exit 1
+    fi
+
+    # If you don't need version check, you can remove below line.
+    echo "Checking java version"
+    version=$("${JAVA_PATH:-java}" -version 2>&1 | head -1 | cut -d'"' -f2 | sed '/^1\./s///' | cut -d'.' -f1)
+    if [ "$version" -eq "17" ]; then
+      echo "Java 17 installed"
+    else
+      echo "Your java version below 17!"
+      echo "Please upgrade your java version or setup the path in this script environment variable."
+      echo "And run this script again."
+      exit 1
+    fi
+}
 
 ## Packwiz downloader function
 
 packwiz_installer () {
-    if [ ! -f "packwiz-installer-bootstrap.jar" ]; then
+    if [ ! -f $Packwiz_Installer_Name ]; then
       echo "Packwiz installer not found, downloading..."
-      if hash wget 2>/dev/null; then
-        echo "Using wget to download ${Packwiz_Installer_Version} Packwiz installer"
+      if [ $command_var -eq 0 ]; then
         wget -O $Packwiz_Installer_Name https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/${Packwiz_Installer_Version}/packwiz-installer-bootstrap.jar
-      elif hash curl 2>/dev/null; then
-        echo "Using curl to download ${Packwiz_Installer_Version} Packwiz installer"
+      elif [ $command_var -eq 1 ]; then
         curl -o $Packwiz_Installer_Name -L https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/${Packwiz_Installer_Version}/packwiz-installer-bootstrap.jar
-      else
-        echo "Can't find wget or curl, please download one, and run this script again!"
-        exit 1
       fi
     else
       echo "Installer exists, pass..."
@@ -51,15 +83,10 @@ packwiz_installer () {
 fabirc_server () {
     if [ ! -f ${Fabric_Launcher_Name} ]; then
       echo "Fabric launcher not found, downloading..."
-      if hash wget 2>/dev/null; then
-        echo "Using wget to download ${Fabric_Version} Fabric ${Fabric_Launcher} Launcher"
+      if [ $command_var -eq 0 ]; then
         wget -O $Fabric_Launcher_Name https://meta.fabricmc.net/v2/versions/loader/${Minecraft_Version}/${Fabric_Version}/${Fabric_Launcher}/server/jar
-      elif hash curl 2>/dev/null; then
-        echo "Using curl to download ${Fabric_Version} Fabric ${Fabric_Launcher} Launcher"
+      elif [ $command_var -eq 1 ]; then
         curl -o $Fabric_Launcher_Name -L https://meta.fabricmc.net/v2/versions/loader/${Minecraft_Version}/${Fabric_Version}/${Fabric_Launcher}/server/jar
-      else
-        echo "Can't find wget or curl, please download one, and run this script again!"
-        exit 1
       fi
     else
       echo "Launcher exists, pass..."
@@ -82,6 +109,7 @@ fabric_start () {
 
 # Main
 
+command_checker
 packwiz_installer
 fabirc_server
 packwiz_updater
