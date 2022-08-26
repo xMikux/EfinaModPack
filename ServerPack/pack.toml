@@ -1,0 +1,16 @@
+name = "EfinaModPack-Server"
+author = "Efina"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b499028d3d62240e85b69504885c0be1824bb9c9294493a5be5dbdb8b4b65894"
+
+[versions]
+fabric = "0.14.9"
+minecraft = "1.19.2"
+
+[options]
+acceptable-game-versions = ["1.19", "1.19.1", "1.19.2"]

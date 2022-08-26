@@ -4,7 +4,7 @@
 *.jar
 *.zip
 
-# Ignore CF Workflow folder
+# Ignore CurseForge workflow folder
 
 LitePack-CF/**
 
