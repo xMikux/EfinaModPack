@@ -233,7 +233,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "68f33f291ece8fff8fe601841a7beb3b9b12348b3c3c1f1847cb4596a910b375"
+hash = "a858a7f76194859c3909bbd178eb79cbf0a59c8e1db1d21d6330a58fdb588405"
 metafile = true
 
 [[files]]
@@ -258,7 +258,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "03cb6f0793621021fc5c71403aad928bca39cb29be15aa3e43e4865cdcef06ca"
+hash = "82585384e2026e809e34368ac23e9a1e11918aa449529ce79903c03eb4cbbc2e"
 metafile = true
 
 [[files]]
@@ -283,5 +283,5 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "f07553f8d090820ace2b8030537d122fc87d9d3d5db5fe05991c0223b85c403b"
+hash = "0558c653fc64ef54d493d0f20b20e2599ae70edcaf727af090ff098b9dd9fd64"
 metafile = true
