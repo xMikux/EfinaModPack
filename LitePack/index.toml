@@ -127,8 +127,9 @@ hash = "5f7e8ec1787dc7e2c8556596c2ba53c0dae9828bf1a2d9c6a1f8b8f9ba41dfb7"
 metafile = true
 
 [[files]]
-file = "mods/extrasounds-2.3.1+1.19.2-1.19.1_akemi-git-7a58d66.jar"
-hash = "def96c3cde6189f29a7ebfccaa0ab14fc5ae8138527d54b918997890b938b6dd"
+file = "mods/extrasounds.pw.toml"
+hash = "2e871ee3068cfb44e799d244f4e586e6f32e5708b16a6832939c3c4f01d91170"
+metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
