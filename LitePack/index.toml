@@ -21,6 +21,10 @@ file = "config/yosbr/config/cull-less-leaves.toml"
 hash = "3f8cc271dc1fb84d8847bf9aa963dc3ae477df5d954fd964cc6127725d69de0f"
 
 [[files]]
+file = "config/yosbr/config/fabrihud.conf"
+hash = "a833c2b95facc7f5a7116c1cc6939ebd1a98198393c76b6295e6d75a5257bd1d"
+
+[[files]]
 file = "config/yosbr/config/lambdabettergrass.toml"
 hash = "febf7811224ccc16a49a80a2bd867d1cbcdddc9e40c1e5373ed92874c6f17cca"
 
@@ -46,7 +50,7 @@ hash = "697cf1f2423206d7f446e7c65644e9f93246e10e76d7d4169df9e11c9f197e5b"
 
 [[files]]
 file = "config/yosbr/config/sodium-extra-options.json"
-hash = "e7ea0b3f6f0a25f21a06357e46b89302a2f5349dd69ad1df6ec26ab011afebd9"
+hash = "198f62015d0a13d64eec370f79a849feb4dd7166e36256aba0e6ddcb06a8974c"
 
 [[files]]
 file = "config/yosbr/config/sodium-options.json"
@@ -55,11 +59,6 @@ hash = "966400f7a90c323f45b0eac1cd785f8a054c7470af9ecbc81c331ce4f3889263"
 [[files]]
 file = "config/yosbr/options.txt"
 hash = "eb0eeca0fdba458ed04c2d8cf759f04780ffa215d9a7e386820b8ddc8e16430b"
-
-[[files]]
-file = "mods/advancementinfo.pw.toml"
-hash = "813c9e3195948559d0daeb5a03ac0169645719c01a9604bebc61ae71d03525a0"
-metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
@@ -74,6 +73,11 @@ metafile = true
 [[files]]
 file = "mods/better-biome-blend.pw.toml"
 hash = "aeaefb6089a1cf7635b3722aabdda71baea6e0e72547ca3bb7726400ae5b93cd"
+metafile = true
+
+[[files]]
+file = "mods/better-stats.pw.toml"
+hash = "63376df9af19e5a3d4e1e40a255acf6a3b903f11a672847f76c3e1a2edf6ad61"
 metafile = true
 
 [[files]]
@@ -139,6 +143,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "76f23e3c7d290c587085b22f59e06160a38593d73859cbb4a4738d1fa2fade4d"
+metafile = true
+
+[[files]]
+file = "mods/fabrihud.pw.toml"
+hash = "1713d411322aabcb00674dd6707f6d95f122277cb27c312ee2e8ce0575662f9e"
 metafile = true
 
 [[files]]
@@ -233,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "a858a7f76194859c3909bbd178eb79cbf0a59c8e1db1d21d6330a58fdb588405"
+hash = "86fd76830339379e145c23747d51608f1a3165df7e747184f2d9fc890c7ab385"
 metafile = true
 
 [[files]]

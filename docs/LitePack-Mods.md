@@ -37,10 +37,11 @@ Very Many Players (Fabric)
 
 | Name | Author | Description |
 | ---- | ------ | ----------- |
-AdvancementInfo
+Better Statistics Screen
 Better Taskbar
 BetterF3
 Continuity
+FabriHUD
 Iris Shaders
 LambdaBetterGrass
 Light Overlay

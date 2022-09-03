@@ -1,0 +1,13 @@
+name = "FabriHUD"
+filename = "FabriHUD-2.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JW9YUcl3/versions/y3vCxZ3X/FabriHUD-2.0.1.jar"
+hash-format = "sha1"
+hash = "a2bd40abb68b8019c8995348f20d1ee7299e66a3"
+
+[update]
+[update.modrinth]
+mod-id = "JW9YUcl3"
+version = "y3vCxZ3X"
