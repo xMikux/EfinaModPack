@@ -43,9 +43,9 @@ BetterF3
 Continuity
 FabriHUD
 Iris Shaders
+LambDynamicLights
 LambdaBetterGrass
 Light Overlay
-MinimalMenu
 Mod Menu
 Mod-erate Loading Screen
 Reese's Sodium Options
