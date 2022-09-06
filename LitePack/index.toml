@@ -33,10 +33,6 @@ file = "config/yosbr/config/lambdynlights.toml"
 hash = "6796217c3fba18251922e2822a706426f3de9c4a973ab9c29591431e01bc000c"
 
 [[files]]
-file = "config/yosbr/config/minimalmenu.json"
-hash = "fd1fc0f0fcedf5a5c11b1658d5a1d8e0bd4928811945aa23cf84724d3aa4b942"
-
-[[files]]
 file = "config/yosbr/config/modmenu.json"
 hash = "28c18076e0a4d4ccc8360fbd8357eb4a07246f821f4f10d54f17eb7b83b355c2"
 
@@ -77,7 +73,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "63376df9af19e5a3d4e1e40a255acf6a3b903f11a672847f76c3e1a2edf6ad61"
+hash = "14515b612cc071ebe8f172894bdd5951ca8db0b0418a3ab67eabd65660d47a7c"
 metafile = true
 
 [[files]]
@@ -97,7 +93,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "5b6a49a1f18adac12e9da13035102cb763e7371a93c2358e25cf74e014366e59"
+hash = "0d51513c96daf3b13b980ebb7d225a793aceda871a4a69e746927cdd87e75cdf"
 metafile = true
 
 [[files]]
