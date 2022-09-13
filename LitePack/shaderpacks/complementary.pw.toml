@@ -1,0 +1,9 @@
+name = "Complementary Shaders"
+filename = "ComplementaryShaders_v4.6.zip"
+side = "client"
+
+[download]
+url = "https://mediafiles.forgecdn.net/files/3951/170/ComplementaryShaders_v4.6.zip"
+
+hash-format = "sha256"
+hash = "aa7f493d7d95e3b6785beba19cd2a5d5df579e6f66dbc56e3de7c4cfdc0aea74"

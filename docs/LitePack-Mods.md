@@ -9,6 +9,7 @@ Cloth Config API
 Fabric API
 Fabric Language Kotlin
 Indium
+YetAnotherConfigLib
 
 ## Optimization
 
