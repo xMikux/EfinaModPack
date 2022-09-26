@@ -73,7 +73,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "9e396f1967ffe3fbc76ca3fefb72f476723582244a1fde2226d3488efb5bc474"
+hash = "97f41d9ec0998c609dd9284f1818db903c24bb748b047d872b7a6145c09bd482"
 metafile = true
 
 [[files]]
@@ -103,12 +103,12 @@ metafile = true
 
 [[files]]
 file = "mods/cull-less-leaves.pw.toml"
-hash = "f75534f0b6580fadf95bef5efd6aacd25858bc0b3c8f64b648f72292c376324d"
+hash = "c06e098c6d6eda6da4492e4a8dff1796e6081bbd30f487ffb89e1ed3c485e805"
 metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "7db65bc77910c1c7e2a9b195b61c7376d573940fd6c3c523c7ed48df1f8fe5b5"
+hash = "59da146d66e2948dfbd203684937dfb822711a228bd505332b5a979678bedbbc"
 metafile = true
 
 [[files]]
@@ -133,7 +133,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "049b71ecdbd76be84b4b2bd362aeb561e3d3c8b6415ec8726182631c3ef671e0"
+hash = "80366046a62a610cb3a5c3a8167caeea2e2857f7f19f363264d781c48eee57c6"
 metafile = true
 
 [[files]]
@@ -233,7 +233,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "86fd76830339379e145c23747d51608f1a3165df7e747184f2d9fc890c7ab385"
+hash = "90bac3dfe0536bb6f01ef8101f5b2c882074306455b0492f471a89125a25191f"
 metafile = true
 
 [[files]]
@@ -278,7 +278,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "3dd1a079070519c40f15178e1fb64be6de2f26cf741d718b9a2ca10177cd475b"
+hash = "f1b822298ccbb96ab43b054811b802080c3160db2168e7c795370779e8bc1b93"
 metafile = true
 
 [[files]]
@@ -288,7 +288,7 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "74fb9e8174adc537ac89947dc970bfff81e0c048a0e23c2250195afb7ad4154e"
+hash = "2ef6bd2d5beb568877c9e9d379f59d7ce6fe0bff3bae958a1c65d17cce9a09fd"
 metafile = true
 
 [[files]]
