@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "049b71ecdbd76be84b4b2bd362aeb561e3d3c8b6415ec8726182631c3ef671e0"
+hash = "80366046a62a610cb3a5c3a8167caeea2e2857f7f19f363264d781c48eee57c6"
 metafile = true
 
 [[files]]
@@ -47,12 +47,12 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "86fd76830339379e145c23747d51608f1a3165df7e747184f2d9fc890c7ab385"
+hash = "3d4e2da11e8a0abf3ca6109630934a7fa400ed49cd6a871b2862abf252f9ada7"
 metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "e63228fdadc03ceaac771202e588fbf174bc0d47d5f20de863a5b8a5d233058a"
+hash = "fab2a06b136eb37c24269381681619d740da6dc3c0eae11e86c4431e18e83bb8"
 metafile = true
 
 [[files]]
@@ -62,5 +62,5 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "5290122207493b6350080792571bceb0038941ffe3a73779e4a78a60f5b9c113"
+hash = "1cc2f9e7491351a0cac5f851c31246696fb332de8161d80ad0b5f7f7d09bad75"
 metafile = true
