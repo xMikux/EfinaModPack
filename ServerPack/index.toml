@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "7f4a8312d10e805cce174067450bb7045b55281cf8de37b0bedbf808a7ae6d31"
+hash = "ce0302a48e6287e497c3936f481287763509336fd5d4ce79b283fb51af710455"
 metafile = true
 
 [[files]]
@@ -47,12 +47,12 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "3d4e2da11e8a0abf3ca6109630934a7fa400ed49cd6a871b2862abf252f9ada7"
+hash = "29343584d66805c0d453bbd6a04bde62119a372ad6f2be32203a057cd5dd639b"
 metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "bd6e0c6fed890533739f8aada0d6ea3baba414001d829e6776bbad536f63a04d"
+hash = "79870ab97caf526e6599d2d429ef778848935bbaf2c7020948e203afbb3f32bc"
 metafile = true
 
 [[files]]
@@ -62,5 +62,5 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "67076573f93c4cd618daa45b96906cc0db5167c94bb60d07ed717a4dfa0804cb"
+hash = "1d0adb6150edfe74a7a51ce4069d399330fdd920b4f4ad4dc39de7a588490f8e"
 metafile = true
